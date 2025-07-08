@@ -1,0 +1,40 @@
+
+body {
+  font-family: Arial;
+  background: #f1f1f1;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form input, form select, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+form button {
+  background: crimson;
+  color: white;
+  border: none;
+}
+h2 {
+  text-align: center;
+  color: crimson;
+}
+.msg {
+  background: #e7f3fe;
+  border-left: 6px solid #2196F3;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
